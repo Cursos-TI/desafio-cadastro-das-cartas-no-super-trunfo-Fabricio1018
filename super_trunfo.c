@@ -4,7 +4,7 @@ int main(){
 
     // Declarando as Variáveis:
 
-   char estado1, estado2;
+   char estado1[30], estado2[30];
    char codigoCarta1[20], codigoCarta2[20];
    char nomeCidade1[50], nomeCidade2[50];
    int populacao1, populacao2;
@@ -20,13 +20,13 @@ int main(){
 
         // Carta 1:
         printf("Digite o nome do Estado: \n");
-        scanf("%s", &estado1);
+        scanf("%s", estado1);
 
         printf("Qual o código da carta? \n");
-        scanf("%s", &codigoCarta1);
+        scanf("%s", codigoCarta1);
 
         printf("Qual o nome da cidade? \n");
-        scanf("%s", &nomeCidade1);
+        scanf("%s", nomeCidade1);
 
         printf("Qual a população da cidade? \n");
         scanf("%d", &populacao1);
@@ -46,13 +46,13 @@ int main(){
 
         // Carta 2:
         printf("Digite o nome do Estado: \n");
-        scanf("%s", &estado2);
+        scanf("%s", estado2);
 
         printf("Qual o código da carta? \n");
-        scanf("%s", &codigoCarta2);
+        scanf("%s", codigoCarta2);
 
         printf("Qual o nome da cidade? \n");
-        scanf("%s", &nomeCidade2);
+        scanf("%s", nomeCidade2);
 
         printf("Qual a população da cidade? \n");
         scanf("%d", &populacao2);
